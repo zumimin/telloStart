@@ -1,0 +1,19 @@
+{
+  // エディター設定
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": true,
+  "editor.detectIndentation": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.suggestSelection": "first",
+  // Python設定
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  // スペルチェッカーの設定
+  "cSpell.ignoreRegExpList": ["tello"]
+}
